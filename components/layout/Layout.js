@@ -6,7 +6,9 @@ function Layout(props) {
     <div>
       <MainNavigation />
       <main className={classes.main}>{props.children}</main>
+      <footer className={classes.footer}>Design & Developed By: Jawed Ahmed Khakhrani</footer>
     </div>
+    
   );
 }
 
